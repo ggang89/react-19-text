@@ -1,5 +1,6 @@
 
 import './App.css'
+import Action from './components/Action'
 import Use from './components/use'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <>
-     <Use/>
+      <Use />
+      <Action/>
     </>
   )
 }
