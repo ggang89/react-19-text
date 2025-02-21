@@ -2,6 +2,7 @@
 import './App.css'
 import Action from './components/Action'
 import Use from './components/use'
+import UseActionState from './components/useActionState'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
       <Use />
-      <Action/>
+      <Action />
+      <UseActionState/>
     </>
   )
 }

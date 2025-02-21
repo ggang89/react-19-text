@@ -9,11 +9,12 @@ const getText = async () => {
 };
 
 const TextItem = () => {
-  let trueOrNot = true; // 작동안함..
-  let text = 'use()는 if문에서도 사용가능';
-  if (trueOrNot) {
-     text = use(getText());
-  }
+  // let trueOrNot = true; // 작동안함..
+  // let text = 'use()는 if문에서도 사용가능';
+  // if (trueOrNot) {
+  //    text = use(getText());
+  // }
+  const text = use(getText());
   return <h2>{text}</h2>;
 };
 const Use = () => {
