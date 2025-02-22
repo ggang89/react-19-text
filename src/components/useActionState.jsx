@@ -1,4 +1,4 @@
-import React, { useActionState } from "react";
+import { useActionState } from "react";
 
 async function updateName(name) {
   await new Promise((resolve) => setTimeout(resolve, 1000));
